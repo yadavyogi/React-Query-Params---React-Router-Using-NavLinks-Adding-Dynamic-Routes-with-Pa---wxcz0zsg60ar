@@ -10,7 +10,9 @@ function App() {
 
   return (
     <div className="App">
-      <p>Employee{id}{name}{designation}</p>
+      <div className="details">
+        <p>Employee {id} named {name} works as {designation}</p>
+      </div>
     </div>
   )
 }
